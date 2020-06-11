@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Talle Material Design</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="agregar_carro">Add Cart</string>
+    <string name="marca_carro">Brand</string>
+    <string name="modelo_carro">Model</string>
+    <string name="ano_carro">Year</string>
+    <string name="cilindrada_carro">Displacement</string>
+    <string name="btn_guardar">Save</string>
+    <string name="btn_limpiar">Clean</string>
+    <string name="placa_carro">License plate</string>
+    <string name="mensaje_guardar">Cart added successfully</string>
+    <string name="carro_detalles">Cart Details</string>
+    <string name="etiqueta_boton_eliminar">Delete</string>
+    <string name="eliminar_carro">Delete Car</string>
+    <string name="pregunta_eliminar_carro">Are you sure you want to delete this car?</string>
+    <string name="afirmacion">Yes</string>
+    <string name="negacion">Not</string>
+    <string name="lista_carros">Car List</string>
+</resources>
