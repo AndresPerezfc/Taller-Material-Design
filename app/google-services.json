@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "967816851309",
+    "firebase_url": "https://talle-material-design.firebaseio.com",
+    "project_id": "talle-material-design",
+    "storage_bucket": "talle-material-design.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967816851309:android:e87d0a941dedb6e7ff7464",
+        "android_client_info": {
+          "package_name": "com.example.tallematerialdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967816851309-tejqthrh3ec6f437tgkof13g7r5np1t5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tallematerialdesign",
+            "certificate_hash": "2e8adcc909419af1f5ae2a4e7f8c8c721dbd7620"
+          }
+        },
+        {
+          "client_id": "967816851309-6i81hpg9ln8lsv6oino8np9pgv9aq64f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHKgXMZBa33WX2AcqzVbDugromkwTNIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967816851309-6i81hpg9ln8lsv6oino8np9pgv9aq64f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
