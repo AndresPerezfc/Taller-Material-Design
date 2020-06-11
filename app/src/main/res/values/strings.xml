@@ -17,4 +17,6 @@
     <string name="btn_guardar">Guardar</string>
     <string name="btn_limpiar">Limpiar</string>
     <string name="placa_carro">Placa</string>
+
+    <string name="mensaje_guardar">Carro agregado exitosamente</string>
 </resources>
