@@ -27,9 +27,18 @@ public class Carro {
         this.cilindrada = cilindrada;
         this.placa = placa;
         this.foto = foto;
+        this.id = id;
     }
 
     public Carro(){}
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getMarca() {
         return marca;
@@ -81,14 +90,6 @@ public class Carro {
 
     public void guardar(){
         Datos.guardar(this);
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public void eliminar(){

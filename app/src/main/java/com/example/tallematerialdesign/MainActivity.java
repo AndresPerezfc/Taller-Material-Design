@@ -23,7 +23,7 @@ import android.view.MenuItem;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity implements AdaptadorCarro.OnCarroClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity{
         lstCarros = findViewById(R.id.lstCarros);
         llm = new LinearLayoutManager(this);
         carros = new ArrayList<>();
-        adapter = new AdaptadorCarro(carros, (AdaptadorCarro.OnCarroClickListener) this);
+        adapter = new AdaptadorCarro(carros, this);
 
 
         llm.setOrientation(RecyclerView.VERTICAL);

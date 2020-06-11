@@ -1,5 +1,7 @@
 package com.example.tallematerialdesign;
 
+import android.util.Log;
+
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -18,6 +20,7 @@ public class Datos {
     }
 
     public static void guardar(Carro c){
+        Log.d("myTag", "base de datos: " + db + "c.getId: " + c.getId());
         databaseReference.child(db).child(c.getId()).setValue(c);
     }
 

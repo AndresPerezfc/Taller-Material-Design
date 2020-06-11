@@ -19,4 +19,11 @@
     <string name="placa_carro">Placa</string>
 
     <string name="mensaje_guardar">Carro agregado exitosamente</string>
+    <string name="carro_detalles">Detalles del Carro</string>
+
+    <string name="etiqueta_boton_eliminar">Eliminar</string>
+    <string name="eliminar_carro">Eliminar Carro</string>
+    <string name="pregunta_eliminar_carro">¿Estás seguras que deseas eliminar a esta persona?</string>
+    <string name="afirmacion">Si</string>
+    <string name="negacion">No</string>
 </resources>

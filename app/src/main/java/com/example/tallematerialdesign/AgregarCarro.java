@@ -38,7 +38,9 @@ public class AgregarCarro extends AppCompatActivity {
         cilindrada = findViewById(R.id.txtCilindrada);
         placa = findViewById(R.id.txtPlaca);
         foto = findViewById(R.id.imgFotoSeleccionada);
-
+        fotos = new ArrayList<>();
+        fotos.add(R.drawable.carro1);
+        fotos.add(R.drawable.carro2);
         storageReference = FirebaseStorage.getInstance().getReference();
     }
 
