@@ -1,12 +1,30 @@
 <resources>
     <string name="app_name">Talle Material Design</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configuraciones</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="first_fragment_label">Primer fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment">Hola primer fragmento</string>
+    <string name="hello_second_fragment">" 32/5000 Hola segundo fragmento. Arg:% 1 $ s"</string>
+    <string name="agregar_carro">Agregar Carro</string>
+    <string name="marca_carro">Marca</string>
+    <string name="modelo_carro">Modelo</string>
+    <string name="ano_carro">Año</string>
+    <string name="cilindrada_carro">Cilindrada</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="placa_carro">Placa</string>
+
+    <string name="mensaje_guardar">Carro agregado exitosamente</string>
+    <string name="carro_detalles">Detalles del Carro</string>
+
+    <string name="etiqueta_boton_eliminar">Eliminar</string>
+    <string name="eliminar_carro">Eliminar Carro</string>
+    <string name="pregunta_eliminar_carro">¿Estás seguro que deseas eliminar este carro?</string>
+    <string name="afirmacion">Si</string>
+    <string name="negacion">No</string>
+    <string name="lista_carros">Lista de Carrros</string>
 </resources>
