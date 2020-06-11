@@ -1,0 +1,2 @@
+rootProject.name='Talle Material Design'
+include ':app'
