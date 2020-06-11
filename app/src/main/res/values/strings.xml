@@ -16,4 +16,5 @@
     <string name="cilindrada_carro">Cilindrada</string>
     <string name="btn_guardar">Guardar</string>
     <string name="btn_limpiar">Limpiar</string>
+    <string name="placa_carro">Placa</string>
 </resources>

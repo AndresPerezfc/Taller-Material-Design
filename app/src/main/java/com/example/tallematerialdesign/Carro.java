@@ -7,15 +7,29 @@ public class Carro {
     private String modelo;
     private String ano;
     private String cilindrada;
+    private String placa;
     private int foto;
+    private String id;
 
-    Carro(String marca, String modelo, String ano, String cilindrada, int foto){
+    Carro(String marca, String modelo, String ano, String cilindrada, String Placa,int foto){
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
         this.cilindrada = cilindrada;
+        this.placa = placa;
         this.foto = foto;
     }
+
+    Carro(String marca, String modelo, String ano, String cilindrada, String Placa,int foto, String id){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.cilindrada = cilindrada;
+        this.placa = placa;
+        this.foto = foto;
+    }
+
+    public Carro(){}
 
     public String getMarca() {
         return marca;
@@ -57,7 +71,19 @@ public class Carro {
         this.foto = foto;
     }
 
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
     public void guardar(){
         Datos.guardar(this);
+    }
+
+    public void eliminar(){
+        Datos.eliminar(this);
     }
 }

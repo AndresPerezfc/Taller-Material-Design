@@ -19,6 +19,13 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
+    <ImageView
+        android:id="@+id/imgFotoSeleccionada"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
     <EditText
         android:id="@+id/txtMarca"
         android:layout_width="match_parent"
@@ -49,6 +56,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/cilindrada_carro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/placa_carro"
         android:inputType="textPersonName" />
 
     <LinearLayout
