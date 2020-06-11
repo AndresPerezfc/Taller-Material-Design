@@ -26,4 +26,5 @@
     <string name="pregunta_eliminar_carro">¿Estás seguras que deseas eliminar a esta persona?</string>
     <string name="afirmacion">Si</string>
     <string name="negacion">No</string>
+    <string name="lista_carros">Lista de Carrros</string>
 </resources>

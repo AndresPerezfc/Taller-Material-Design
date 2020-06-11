@@ -11,7 +11,7 @@ public class Carro {
     private int foto;
     private String id;
 
-    Carro(String marca, String modelo, String ano, String cilindrada, String Placa,int foto){
+    Carro(String marca, String modelo, String ano, String cilindrada, String placa,int foto){
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
@@ -20,7 +20,7 @@ public class Carro {
         this.foto = foto;
     }
 
-    Carro(String marca, String modelo, String ano, String cilindrada, String Placa,int foto, String id){
+    Carro(String marca, String modelo, String ano, String cilindrada, String placa,int foto, String id){
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
